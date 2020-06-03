@@ -8,14 +8,6 @@ info:
     url: 'http://www.google.com'
     email: admin@apigee.com
 host: 'hk-demo14-test.apigee.net'
-basePath: /
-tags:
-  - name: Customer Management Api
-    description: Customer Management Controller
-consumes:
-  - application/json
-produces:
-  - application/json
 paths:
   
   /customerEnquiry/getFullProfile/{Id}:
